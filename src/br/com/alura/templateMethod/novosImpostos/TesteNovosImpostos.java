@@ -1,9 +1,9 @@
 package br.com.alura.templateMethod.novosImpostos;
 
+import br.com.alura.shared.Imposto;
 import br.com.alura.shared.Item;
 import br.com.alura.shared.Orcamento;
 import br.com.alura.strategy.impostos.CalculadorDeImpostos;
-import br.com.alura.strategy.impostos.Imposto;
 
 public class TesteNovosImpostos {
 

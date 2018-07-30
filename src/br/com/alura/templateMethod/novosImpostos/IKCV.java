@@ -1,10 +1,19 @@
 package br.com.alura.templateMethod.novosImpostos;
 
+import br.com.alura.shared.Imposto;
 import br.com.alura.shared.Item;
 import br.com.alura.shared.Orcamento;
 
 public class IKCV extends TemplateDeImpostoCondicional {
 
+	public IKCV() {
+		super();
+	}
+	
+	public IKCV(Imposto outroImposto) {
+		super(outroImposto);
+	}
+	
 	private boolean temItemMaiorQue100ReaisNo(Orcamento orcamento) {
 		for (Item item : orcamento.getItens()) {
 			if (item.getValor() > 100) return true;

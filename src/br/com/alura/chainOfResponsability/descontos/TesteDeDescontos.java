@@ -14,7 +14,7 @@ public class TesteDeDescontos {
 		orcamento.adicionaItem(new Item("BORRACHA", 15.0));
 		orcamento.adicionaItem(new Item("REGUA", 25.0));
 		orcamento.adicionaItem(new Item("GRAFITE", 25.0));
-//		orcamento.adicionaItem(new Item("CORRETIVO", 250.0));
+		orcamento.adicionaItem(new Item("CORRETIVO", 250.0));
 		
 		double descontoFinal = descontos.calcula(orcamento);
 		
